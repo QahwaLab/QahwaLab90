@@ -462,8 +462,25 @@ footer {
 
 .footer-text {
     width: 100%;
+    padding: 0 15px;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #2c2c2c;
+}
 
+.footer-text__number a{
+    color: #2c2c2c;
+}
+
+.footer-text__socMedia {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-text__socMedia a img{
+    height: 25px;
 }
 
 /* .footer-social-media__owl {
