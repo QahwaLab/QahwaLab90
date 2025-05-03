@@ -89,11 +89,35 @@
     }
 
     footer {
-        height: 20vh;
+        height: 5vh;
         width: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
+    }
+
+    .footer-text {
+        width: 100%;
+    }
+
+    .footer-text__number {
+        font-size: 14px;
+        padding: 10px;
+    }
+    
+    .footer-text__text {
+        font-size: 14px;
+        padding: 10px;
+        line-height: 15px;
+    }
+
+    .footer-text__socMedia {
+        padding: 10px;
+    }
+
+    .footer-text__socMedia a{
+        height: 50px;
+        width: 50px;
     }
 
 }
