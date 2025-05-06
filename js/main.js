@@ -497,27 +497,24 @@ const cardsData = {
       },
     ],
     coldDrinks: [
-      // {
-      //   title: 'Coca-Cola',
-      //   description: '',
-      //   weight: '250/0.5 мл',
-      //   price: '130/175 с',
-      //   image: './img/cold-drinks/coca-cola250ml.png'
-      // },
-      // {
-      //   title: 'Fanta',
-      //   description: '',
-      //   weight: '350 мл',
-      //   price: '150 с',
-      //   image: './img/cold-drinks/fanta250ml.png'
-      // },
-      // {
-      //   title: 'Sprite',
-      //   description: '',
-      //   weight: '350 мл',
-      //   price: '150 с',
-      //   image: './img/cold-drinks/sprite250ml.png'
-      // },
+      {
+        title: 'Coca-Cola',
+        description: '',
+        weight: '250/0.5 мл',
+        price: '180/190 с',
+      },
+      {
+        title: 'Fanta',
+        description: '',
+        weight: '250/350 мл',
+        price: '180/190 с',
+      },
+      {
+        title: 'Sprite',
+        description: '',
+        weight: '350 мл',
+        price: '190 с',
+      },
       {
         title: 'Beypazar',
         description: '',
@@ -530,13 +527,30 @@ const cardsData = {
         weight: '0.5/1 л',
         price: '90/140 с',
       },
-      // {
-      //   title: 'J7',
-      //   description: '',
-      //   weight: '0.5/1 л',
-      //   price: '150/380 с',
-      //   image: './img/cold-drinks/J7.png'
-      // },
+      {
+        title: 'Red Bull sugar free',
+        description: '',
+        weight: '250 мл',
+        price: '250 с',
+      },
+      {
+        title: 'Red Bull классика',
+        description: '',
+        weight: '250 мл',
+        price: '250 с',
+      },
+      {
+        title: 'Red Bull классика',
+        description: '',
+        weight: '350 мл',
+        price: '310 с',
+      },
+      {
+        title: 'Red Bull красный',
+        description: '',
+        weight: '350 мл',
+        price: '250 с',
+      },
     ],
     phistaBaklava: [
     {

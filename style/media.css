@@ -3,7 +3,7 @@
 
 @media (max-width: 1080px) {
     .header__banner {
-        height: 90vh;
+        height: 80vh;
     }
     .header__text-descr {
         width: 100%;
@@ -15,6 +15,7 @@
 
     .header__text-btn {
         padding: 15px 10px;
+        font-size: 18px;
     }
 
     /*              aobut us             */
@@ -79,25 +80,34 @@
         text-align: end;
     }
 
+    .card-text__title {
+        font-size: 22px;
+    }
+
+    .card-text__descr {
+        font-size: 18px;
+    }
+
     .card-price__weight {
         width: 60%;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .card-price__sum {
         width: 110%;
+        font-size: 18px;
     }
 
     footer {
-        height: 5vh;
         width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        padding: 0;
     }
 
     .footer-text {
-        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
     }
 
     .footer-text__number {
@@ -126,7 +136,7 @@
 @media (max-width: 768px) {
 
     .header__banner {
-        height: 50vh;
+        height: 60vh;
     }
 
     .distr-banner__text {
@@ -161,7 +171,7 @@
     }
 
     .nav-list a {
-        font-size: 14px;
+        font-size: 18px;
         margin-right: 0;
     }
 
@@ -198,8 +208,8 @@
     }
 
     .header__text-descr {
-        width: 100%;
-        font-size: 24px;
+        width: 120px;
+        font-size: 16px;
         margin-top: 0;
     }
 
@@ -207,7 +217,7 @@
         display: flex;
         width: 100%;
         padding: 14px;
-        font-size: 10px;
+        font-size: 16px;
     }
 
     /*                      abou us          */
@@ -247,9 +257,7 @@
         font-size: 30px;
     }
     .header__text-descr {
-        width: 140px;
-        margin: 10px;
-        font-size: 13px;
+        
     }
     .header__text-btn {
         width: 117px;
@@ -335,12 +343,10 @@
         width: 100%;
     }
     
-    .card-text__title {
-        font-size: 16px;
-    }
+    
 
     .card-text__descr {
-        font-size: 10px;
+        /* font-size: 10px; */
     }
 
     .buisnes-lunch {
